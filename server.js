@@ -55,7 +55,7 @@ app.post('/api/chat', async (req, res) => {
 
         // Get the generative model
         const model = genAI.getGenerativeModel({
-            model: "gemini-1.5-flash",
+            model: "gemini-2.5-flash",
             systemInstruction: "You are 'மின்னொளி' (Minnoli), a helpful AI voice assistant for training modules. Keep your answers brief, polite, and always respond in clear, natural Tamil. Ensure the output is easy to read and suitable for text-to-speech synthesis.",
         });
 
